@@ -1,0 +1,319 @@
+Skip to content
+ 
+Search…
+All gists
+Back to GitHub
+@GaneshPragmaEdge 
+@rise-worlds rise-worlds/For Mac 4.2.6 unlimited trial.md
+forked from satish-setty/trial.md
+Last active 2 days ago • Report abuse
+121
+44
+ Code Revisions 11 Stars 121 Forks 44
+<script src="https://gist.github.com/rise-worlds/5a5917780663aada8028f96b15057a67.js"></script>
+  
+Beyond Compare 4 license for Windows, Mac, Linux
+ For Mac 4.2.6 unlimited trial.md
+for 4.2.4 or higher,4.2.5,4.2.6 ，it's works ， this is the way which makes Always in evaluation mode 。
+
+go to the dir : /Applications/Beyond Compare.app/Contents/MacOS
+change the name BCompare to BCompare.bak
+touch a file name BCompare , and chmod a+u BCompare
+insert BCompare the content :
+#!/bin/bash
+rm "/Users/$(whoami)/Library/Application Support/Beyond Compare/registry.dat"
+"`dirname "$0"`"/BCompare.bak $@
+restart bc .
+ trial.md
+Beyond Compare 4.x
+Licensed to: ASIO Allsoftinone Quantity: 1 user Serial number: 1822-9597 License type: Pro Edition for Linux
+
+First delete away trial mode:
+
+sudo rm -rf ~/.config/bcompare #thinks bensonkb
+sudo sed -i "s/keexjEP3t4Mue23hrnuPtY4TdcsqNiJL-5174TsUdLmJSIXKfG2NGPwBL6vnRPddT7tH29qpkneX63DO9ECSPE9rzY1zhThHERg8lHM9IBFT+rVuiY823aQJuqzxCKIE1bcDqM4wgW01FH6oCBP1G4ub01xmb4BGSUG6ZrjxWHJyNLyIlGvOhoY2HAYzEtzYGwxFZn2JZ66o4RONkXjX0DF9EzsdUef3UAS+JQ+fCYReLawdjEe6tXCv88GKaaPKWxCeaUL9PejICQgRQOLGOZtZQkLgAelrOtehxz5ANOOqCaJgy2mJLQVLM5SJ9Dli909c5ybvEhVmIC0dc9dWH+/N9KmiLVlKMU7RJqnE+WXEEPI1SgglmfmLc1yVH7dqBb9ehOoKG9UE+HAE1YvH1XX2XVGeEqYUY-Tsk7YBTz0WpSpoYyPgx6Iki5KLtQ5G-aKP9eysnkuOAkrvHU8bLbGtZteGwJarev03PhfCioJL4OSqsmQGEvDbHFEbNl1qJtdwEriR+VNZts9vNNLk7UGfeNwIiqpxjk4Mn09nmSd8FhM4ifvcaIbNCRoMPGl6KU12iseSe+w+1kFsLhX+OhQM8WXcWV10cGqBzQE9OqOLUcg9n0krrR3KrohstS9smTwEx9olyLYppvC0p5i7dAx2deWvM1ZxKNs0BvcXGukR+/g" /usr/lib/beyondcompare/BCompare
+Then restart BC, click "Enter License":
+
+--- BEGIN LICENSE KEY ---
+ayvZeJDYPBHS4J-1K6g6bDBuPoo0G-oGAq35blZtAoRqC-qQeSz28XAzX
+6nTx9laTMLRCp6nAIhHNGZ2ehkeUfbnFaxEeLvI8fJavn-XQLNbOumCLU
+qgdNbNMZiFRU03+OTQnw4V-E2YKTYi-LkgPzE6R-yIJGDNWfxH2AdpIgg
+8rlpsbrTs9Dt1zysUfvAEi0dKbmGIi3rqf7yWmwDh1AI5VyoWFIejvJwJ
+Lmlr2CjQ1VZ3DySCfBDuKcYmOCeK7jzEWPUnAw+f9360nIiiNEB0YGkwB
+kdtgaKEEik7aNiI3jXvp5r34wViVJCiX7m2y7pqBV9gZIvP9hP9KPnP++++
+--- END LICENSE KEY -----
+or
+
+--- BEGIN LICENSE KEY ---
+GXN1eh9FbDiX1ACdd7XKMV7hL7x0ClBJLUJ-zFfKofjaj2yxE53xauIfkqZ8FoLpcZ0Ux6McTyNmODDSvSIHLYhg1QkTxjCeSCk6ARz0ABJcnUmd3dZYJNWFyJun14rmGByRnVPL49QH+Rs0kjRGKCB-cb8IT4Gf0Ue9WMQ1A6t31MO9jmjoYUeoUmbeAQSofvuK8GN1rLRv7WXfUJ0uyvYlGLqzq1ZoJAJDyo0Kdr4ThF-IXcv2cxVyWVW1SaMq8GFosDEGThnY7C-SgNXW30jqAOgiRjKKRX9RuNeDMFqgP2cuf0NMvyMrMScnM1ZyiAaJJtzbxqN5hZOMClUTE+++
+--- END LICENSE KEY -----
+For windows:
+
+--- BEGIN LICENSE KEY ---
+H1bJTd2SauPv5Garuaq0Ig43uqq5NJOEw94wxdZTpU-pFB9GmyPk677gJ
+vC1Ro6sbAvKR4pVwtxdCfuoZDb6hJ5bVQKqlfihJfSYZt-xVrVU27+0Ja
+hFbqTmYskatMTgPyjvv99CF2Te8ec+Ys2SPxyZAF0YwOCNOWmsyqN5y9t
+q2Kw2pjoiDs5gIH-uw5U49JzOB6otS7kThBJE-H9A76u4uUvR8DKb+VcB
+rWu5qSJGEnbsXNfJdq5L2D8QgRdV-sXHp2A-7j1X2n4WIISvU1V9koIyS
+NisHFBTcWJS0sC5BTFwrtfLEE9lEwz2bxHQpWJiu12ZeKpi+7oUSqebX+
+--- END LICENSE KEY -----
+For Mac:
+
+Open trial.key at path: /Applications/Beyond\ Compare.app/Contents/Resources/trial.key
+Replace content of trial.key with:
+--- BEGIN LICENSE KEY ---
+H1bJTd2SauPv5Garuaq0Ig43uqq5NJOEw94wxdZTpU-pFB9GmyPk677gJ
+vC1Ro6sbAvKR4pVwtxdCfuoZDb6hJ5bVQKqlfihJfSYZt-xVrVU27+0Ja
+hFbqTmYskatMTgPyjvv99CF2Te8ec+Ys2SPxyZAF0YwOCNOWmsyqN5y9t
+q2Kw2pjoiDs5gIH-uw5U49JzOB6otS7kThBJE-H9A76u4uUvR8DKb+VcB
+rWu5qSJGEnbsXNfJdq5L2D8QgRdV-sXHp2A-7j1X2n4WIISvU1V9koIyS
+NisHFBTcWJS0sC5BTFwrtfLEE9lEwz2bxHQpWJiu12ZeKpi+7oUSqebX+
+--- END LICENSE KEY -----
+Save trial.key file & restart Beyond Compare app Enjoy!
+Sublime Text
+----- BEGIN LICENSE -----
+eldon
+Single User License
+EA7E-1122628
+C0360740 20724B8A 30420C09 6D7E046F
+3F5D5FBB 17EF95DA 2BA7BB27 CCB14947
+27A316BE 8BCF4BC0 252FB8FF FD97DF71
+B11A1DA9 F7119CA0 31984BB9 7D71700C
+2C728BF8 B952E5F5 B941FF64 6D7979DA
+B8EB32F8 8D415F8E F16FE657 A35381CC
+290E2905 96E81236 63D2B06D E5F01A69
+84174B79 7C467714 641A9013 94CA7162
+------ END LICENSE ------
+@ring0li
+ring0li commented on 14 Nov 2018
+顶！
+
+@gabomontero89
+gabomontero89 commented on 16 Feb 2019
+Thanks!
+
+@xiaolongfree
+xiaolongfree commented on 28 Feb 2019
+nice
+
+@PiaoZhuWon
+PiaoZhuWon commented on 8 Mar 2019
+Thank you very much.
+
+@braj24
+braj24 commented on 12 Mar 2019
+It worked for Ubuntu. Thank you so much.
+
+@bensonkb
+bensonkb commented on 12 Mar 2019 • 
+Error : This Licence key has been revoked..
+Reverted by
+sudo rm -rf ~/.config/bcompare
+Licence error was fixed.
+
+@LucasGit
+LucasGit commented on 14 Mar 2019
+nice code
+
+@a63420000
+a63420000 commented on 21 Mar 2019
+Good Nice
+
+@ckyRoomee
+ckyRoomee commented on 4 Apr 2019
+Thank you very much!
+
+@SidneyRey
+SidneyRey commented on 17 Apr 2019
+thanks !!!!
+
+@mrmoll
+mrmoll commented on 24 Apr 2019
+几个月之前用的就是这个注册码，今天打开compare的时候提示我15天之后过期，，然后我又用这个注册码重新注册了一下，过期提示就没了
+
+@edisonv19
+edisonv19 commented on 3 Jun 2019
+Thanks!
+
+@yaitza
+yaitza commented on 3 Jun 2019
+ding！
+
+@niyasmo
+niyasmo commented on 4 Jun 2019
+Thanks
+
+@ayworld
+ayworld commented on 4 Jun 2019
+Thanks
+
+@ljtjerry
+ljtjerry commented on 10 Jun 2019
+windows的那个key已经被吊销了，无法注册
+
+@rise-worlds
+Owner
+Author
+rise-worlds commented on 11 Jun 2019 • 
+windows的那个key已经被吊销了，无法注册
+
+Beyond_Compare_Keygen_for_4.x.exe
+https://drive.google.com/open?id=1q3dHzNxWvRetqmOB0G-Iwy5AjrWKtKk-
+
+@chujiangke
+chujiangke commented on 14 Jun 2019
+fuck genius
+
+@zl7261
+zl7261 commented on 18 Jun 2019
+windows的那个key已经被吊销了，无法注册
+
+Beyond_Compare_Keygen_for_4.x.exe
+https://drive.google.com/open?id=1q3dHzNxWvRetqmOB0G-Iwy5AjrWKtKk-
+
+404 not found ,could you reply another download link?
+
+@niyasmo
+niyasmo commented on 24 Jun 2019
+License key is revoked .
+
+@marko-ivan
+marko-ivan commented on 30 Jun 2019 • 
+--- BEGIN LICENSE KEY ---
+H1bJTd2SauPv5Garuaq0Ig43uqq5NJOEw94wxdZTpU-pFB9GmyPk677gJ
+vC1Ro6sbAvKR4pVwtxdCfuoZDb6hJ5bVQKqlfihJfSYZt-xVrVU27+0Ja
+hFbqTmYskatMTgPyjvv99CF2Te8ec+Ys2SPxyZAF0YwOCNOWmsyqN5y9t
+q2Kw2pjoiDs5gIH-uw5U49JzOB6otS7kThBJE-H9A76u4uUvR8DKb+VcB
+rWu5qSJGEnbsXNfJdq5L2D8QgRdV-sXHp2A-7j1X2n4WIISvU1V9koIyS
+NisHFBTcWJS0sC5BTFwrtfLEE9lEwz2bxHQpWJiu12ZeKpi+7oUSqebX+
+--- END LICENSE KEY -----
+On Windows, I have used this key. But the license key has been revoked.
+Could you please help me?
+
+@i542873057
+i542873057 commented on 22 Jul 2019
+revoked is solved by del folder "C:\Users\Administrator\AppData\Roaming\Scooter Software\Beyond Compare 4"
+
+@tientran93
+tientran93 commented on 1 Aug 2019
+revoked is solved by del folder "C:\Users\Administrator\AppData\Roaming\Scooter Software\Beyond Compare 4"
+
+I deleted folder but still got message box the license key has been revoked.
+
+@emb03
+emb03 commented on 7 Aug 2019 • 
+I don't have a Scooter Software folder
+
+nm, found better instructions here: https://gist.github.com/vnsam/187be13c408b291f9b9c0a28c72fb7ff
+
+@niyasali64
+niyasali64 commented on 5 Sep 2019
+Thanks a lot, It is working
+
+@jered-wen
+jered-wen commented on 9 Sep 2019
+It works，thanks a lot
+
+@maystroh
+maystroh commented on 19 Sep 2019
+Thanks a lot.
+
+@rgaduput
+rgaduput commented on 30 Sep 2019
+Hi
+For windows, key revoked error is displayed even though after deletion of dir
+C:\Users\Administrator\AppData\Roaming\Scooter Software\Beyond Compare 4
+any solution ?
+
+@XixoWreden
+XixoWreden commented on 2 Oct 2019
+--- BEGIN LICENSE KEY ---
+H1bJTd2SauPv5Garuaq0Ig43uqq5NJOEw94wxdZTpU-pFB9GmyPk677gJ
+vC1Ro6sbAvKR4pVwtxdCfuoZDb6hJ5bVQKqlfihJfSYZt-xVrVU27+0Ja
+hFbqTmYskatMTgPyjvv99CF2Te8ec+Ys2SPxyZAF0YwOCNOWmsyqN5y9t
+q2Kw2pjoiDs5gIH-uw5U49JzOB6otS7kThBJE-H9A76u4uUvR8DKb+VcB
+rWu5qSJGEnbsXNfJdq5L2D8QgRdV-sXHp2A-7j1X2n4WIISvU1V9koIyS
+NisHFBTcWJS0sC5BTFwrtfLEE9lEwz2bxHQpWJiu12ZeKpi+7oUSqebX+
+--- END LICENSE KEY -----
+On Windows, I have used this key. But the license key has been revoked.
+Could you please help me?
+
+The problem is the Beyond Compare version, with version 4.2.2 it served me completely.
+Link: https://filehippo.com/es/download_beyond_compare/75508/
+
+@LuckyCat14
+LuckyCat14 commented on 18 Oct 2019
+Thanks!
+
+@Tspm1eca
+Tspm1eca commented on 21 Oct 2019
+New version of Beyond Compare not available anymore.
+
+@rgaduput
+rgaduput commented on 21 Oct 2019
+--- BEGIN LICENSE KEY ---
+H1bJTd2SauPv5Garuaq0Ig43uqq5NJOEw94wxdZTpU-pFB9GmyPk677gJ
+vC1Ro6sbAvKR4pVwtxdCfuoZDb6hJ5bVQKqlfihJfSYZt-xVrVU27+0Ja
+hFbqTmYskatMTgPyjvv99CF2Te8ec+Ys2SPxyZAF0YwOCNOWmsyqN5y9t
+q2Kw2pjoiDs5gIH-uw5U49JzOB6otS7kThBJE-H9A76u4uUvR8DKb+VcB
+rWu5qSJGEnbsXNfJdq5L2D8QgRdV-sXHp2A-7j1X2n4WIISvU1V9koIyS
+NisHFBTcWJS0sC5BTFwrtfLEE9lEwz2bxHQpWJiu12ZeKpi+7oUSqebX+
+--- END LICENSE KEY -----
+On Windows, I have used this key. But the license key has been revoked.
+Could you please help me?
+
+The problem is the Beyond Compare version, with version 4.2.2 it served me completely.
+Link: https://filehippo.com/es/download_beyond_compare/75508/
+
+It did work with this version, thank you
+
+@nghialt2
+nghialt2 commented on 23 Oct 2019 • 
+revoked is solved by del folder "C:\Users\Administrator\AppData\Roaming\Scooter Software\Beyond Compare 4"
+
+Thanks a lot! It worked for me.
+I only change "Administrator" => "Dell" user on my machine.
+
+@qiumingben
+qiumingben commented on 16 Nov 2019
+--- BEGIN LICENSE KEY ---
+H1bJTd2SauPv5Garuaq0Ig43uqq5NJOEw94wxdZTpU-pFB9GmyPk677gJ
+vC1Ro6sbAvKR4pVwtxdCfuoZDb6hJ5bVQKqlfihJfSYZt-xVrVU27+0Ja
+hFbqTmYskatMTgPyjvv99CF2Te8ec+Ys2SPxyZAF0YwOCNOWmsyqN5y9t
+q2Kw2pjoiDs5gIH-uw5U49JzOB6otS7kThBJE-H9A76u4uUvR8DKb+VcB
+rWu5qSJGEnbsXNfJdq5L2D8QgRdV-sXHp2A-7j1X2n4WIISvU1V9koIyS
+NisHFBTcWJS0sC5BTFwrtfLEE9lEwz2bxHQpWJiu12ZeKpi+7oUSqebX+
+--- END LICENSE KEY -----
+On Windows, I have used this key. But the license key has been revoked.
+Could you please help me?
+
+兄弟，你的密钥对我有用，谢谢！
+
+@SamarthaKV29
+SamarthaKV29 commented on 10 Jan
+For people facing problems on windows, download BC 4.2.7
+Next, open the application once. Check that it shows "new version available" at the top right hand corner. This means you are allowing it to connect to the internet. Hence we need to disable that access before we register it.
+To disable that, go your windows Firewall and add 2 rules, one for inbound and one for outbound, for the program file BCompare.exe
+Block both the connections. Close BC 4 and open it again. The "new version" message should be gone. Now just use the same key as above and it will register with no problems. If you already tried to register once, I suggest you delete the files in path here "users/[user name]/AppData/Roaming/Scooter Software/Beyond Compare 4", so that it will allow you to register again.
+
+@shreyabhandare
+shreyabhandare commented 28 days ago
+thanks man
+
+@GaneshPragmaEdge
+ 
+Leave a comment
+
+Attach files by selecting or pasting them.
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
